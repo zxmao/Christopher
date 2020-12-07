@@ -1,15 +1,22 @@
 spring:
   application:
     name: spring-cloud-config
+  zipkin:
+    base-url: http://localhost:9411
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+
   cloud:
     config:
       label: master
       server:
         git:
-          uri: https://github.com/xxx/spring-cloud-config
+          uri: https://github.com/zxmao/spring-cloud-config-repo
           search-paths: repo
-          username: xxx
-          password:
+          username: 你不知道账号?
+          password: 你不知道密码?
 
 server:
   port: 8888
