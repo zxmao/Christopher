@@ -10,7 +10,7 @@
         <relativePath>../spring-cloud-dependencies/pom.xml</relativePath>
     </parent>
 
-    <artifactId>hello-spring-cloud-config</artifactId>
+    <artifactId>spring-cloud-config</artifactId>
     <packaging>jar</packaging>
 
     <name>spring-cloud-config</name>
